@@ -1,0 +1,37 @@
+/* Tablet */
+@media (max-width: 1199px) {
+    .container {
+    width: 900px;
+    }
+}
+/* Mobile */
+@media (max-width: 899px) {
+    .container {
+    width: 600px;
+    }
+    .section {
+        padding: 60px 0;
+    }
+    .title {
+        font-size: 32px;
+    }
+    .subtitle {
+        font-size: 12px;
+    }
+    .section-products {
+        row-gap: 30px;
+    }
+}
+/* Mobile XS */
+@media (max-width: 599px) {
+    .container {
+    width: 320px;
+    }
+    .section {
+        padding: 60px 0 40px;
+    }
+    .section-products {
+        row-gap: 20px;
+        justify-content: center;
+    }
+}
